@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { WebBluetoothModule } from '@manekinekko/angular-web-bluetooth';
 import { MomentModule } from 'angular2-moment';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { NgBeaconService } from './ng-beacon.service';
 import { BluetoothUtilsService } from './bluetooth-utils.service';
@@ -21,6 +22,7 @@ import { AppComponent } from './app.component';
     HttpModule,
     WebBluetoothModule.forRoot(),
     MaterialModule.forRoot(),
+    BrowserAnimationsModule,
     MomentModule
   ],
   providers: [NgBeaconService, BluetoothUtilsService, BleUartService],

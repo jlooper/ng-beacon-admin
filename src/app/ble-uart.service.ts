@@ -10,6 +10,8 @@ import 'rxjs/add/operator/publish';
 import 'rxjs/add/operator/scan';
 import 'rxjs/add/observable/from';
 import 'rxjs/add/observable/zip';
+import 'rxjs/add/operator/share';
+import 'rxjs/add/operator/finally';
 
 import { BluetoothCore } from '@manekinekko/angular-web-bluetooth';
 
