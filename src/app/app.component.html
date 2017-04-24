@@ -1,7 +1,7 @@
 <md-toolbar color="primary">
-  ng-beacon Configuration Utility
+  Web Bluetooth / Physical Web ng-beacon Configuration Admin Tool
   <div class="flex-fill"></div>
-  <a href="https://github.com/urish/ng-beacon-app" title="View on Github" target="_blank">
+  <a href="https://github.com/jlooper/ng-beacon-admin" title="View on Github" target="_blank">
     <md-icon>code</md-icon>
   </a>
 </md-toolbar>
@@ -25,7 +25,6 @@
     </md-card-content>
 
     <button md-raised-button (click)="disconnect()">Disconnect</button>
-    <button md-button (click)="readTemperature()">Read Temperature</button>
   </md-card>
 
   <md-card>
@@ -43,8 +42,6 @@
 
       <button md-button (click)="reset()">Reset</button>
       <button md-button (click)="uploadEddystone()">Physical Web Beacon</button>
-      <button md-button (click)="uploadTemperature()">Temperature Sensor</button>
-      <button md-button (click)="uploadIBeacon()">iBeacon</button>
     </md-card-content>
   </md-card>
 
